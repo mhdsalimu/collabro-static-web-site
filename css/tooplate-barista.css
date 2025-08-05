@@ -1209,3 +1209,11 @@ strong {
   }
 }
 
+.team-block-wrap {
+    position: relative;
+    z-index: 1;
+}
+
+.team-block-wrap a {
+    display: block;
+}
