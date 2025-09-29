@@ -1217,3 +1217,22 @@ strong {
 .team-block-wrap a {
     display: block;
 }
+    .navbar .container {
+        flex-wrap: nowrap !important;
+    }
+    .navbar-toggler {
+        margin-left: auto;
+        margin-right: 0;
+        align-self: center;
+    }
+    @media (max-width: 991.98px) {
+        .navbar .container {
+            flex-direction: row !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+        }
+        .navbar-toggler {
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
