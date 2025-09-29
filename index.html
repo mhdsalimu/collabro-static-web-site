@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <title>CollaBro</title>
-    <link rel="icon" href="images/logo.png">
+    <link rel="icon" href="images/logo1.png">
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -44,7 +44,7 @@ Bootstrap 5 HTML CSS Template
 <body>
 
     <main>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg align-items-center">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
                     <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
@@ -58,20 +58,15 @@ Bootstrap 5 HTML CSS Template
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-lg-auto">
-
-
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            <a class="nav-link click-scroll active" href="#section_1">Home</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_2">Service</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_3">Portfolio</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_4">About US</a>
                         </li>
@@ -259,6 +254,7 @@ Bootstrap 5 HTML CSS Template
                                     </div>
                                 </div>
                             </div> -->
+
 
             </div>
             </div>
@@ -554,6 +550,15 @@ Bootstrap 5 HTML CSS Template
                 <div class="team-block-wrap">
                     <a href="https://www.instagram.com/aloragoldanddiamondsllp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
                         <img src="images/portfolio/alora.jpg" class="team-block-image img-fluid" alt="Alora Gold and Diamonds">
+                    </a>
+                </div>
+            </div>
+
+            <!-- belgo -->
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <div class="team-block-wrap">
+                    <a href="https://www.instagram.com/belgo.in?igsh=ZXlrMGRpM3J0djJ6" target="_blank">
+                        <img src="images/portfolio/belgo.png" class="team-block-image img-fluid" alt="Alora Gold and Diamonds">
                     </a>
                 </div>
             </div>
@@ -876,6 +881,17 @@ Bootstrap 5 HTML CSS Template
         .team-block-image-wrap a,
         .team-block-image-wrap img {
             pointer-events: auto;
+        }
+
+        .navbar-toggler {
+            align-self: center !important;
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            height: 40px;
+            display: flex;
+            align-items: center;
         }
     </style>
 </body>
